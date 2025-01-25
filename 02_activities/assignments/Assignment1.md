@@ -201,7 +201,9 @@ Link if you encounter a paywall: https://web.archive.org/web/20240422105834/http
 
 **What values systems are embedded in databases and data systems you encounter in your day-to-day life?**
 
-Consider, for example, concepts of fariness, inequality, social structures, marginalization, intersection of technology and society, etc.
+Like mentioned in the article, societal values and current definitions of facets of human identity can be encoded in the structure of a database or the data types within. Things like gender and sexual preference have relatively recently been accepted to take values in a set much larger than the 2 or 3 that had historically been recognized. I can imagine that reprogramming large databases to accomodate changed like this would be quite a task. This is just one example of where writing code to be as flexible and modifiable as possible is the best prectice.
+
+I'm not sure exactly what this question is asking me to write, but what comes to mind are privacy concerns. One would hope that in the huge databases that large corporations build with our personal data that there is separation between what information is available in each table. For example, legal names or private information is not really necessary for a market analysis that only cares about distinguishing customers and what was purchased. Unique customer id fields are enough to build this structure.
 
 
 ```
